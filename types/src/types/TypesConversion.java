@@ -15,6 +15,7 @@ public class TypesConversion {
 		System.out.println(floatLong);
 		int inteiroFloat = (int)floatLong;
 		System.out.println(inteiroFloat); // ocorre perda de dados, int não aceita casas decimais
+		// para esse tipo de conversão necessario CAST
 	}
 
 }
